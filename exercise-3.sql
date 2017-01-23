@@ -1,0 +1,1 @@
+DROP DATABASE decodemtl_test;
