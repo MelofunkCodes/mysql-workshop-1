@@ -15,6 +15,8 @@ Eggs hatch after 21 days and become chicks
 
 CREATE DATABASE ChickenBarn;
 
+USE ChickenBarn;
+
 CREATE TABLE Barn (id INT auto_increment primary key, Type ENUM('Rooster', 'Hen', 'Chick-Male', 'Chick-Female'), Birthdate DATETIME, Deathdate DATETIME);
 
 --adding values to table
